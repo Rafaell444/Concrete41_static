@@ -575,3 +575,43 @@ box-shadow:         0px -6px 17px 0px rgba(50, 50, 50, 0.4);
         visibility: hidden;
     }
 }
+
+@media only screen and (max-width: 440px){
+    .footerbelow p {
+        padding-left: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 510px){
+    .termss h2 {
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .deliv h2 {
+        margin-left: 60px;
+    }
+    .textdeliv p {
+        margin-left: 60px;
+    }
+
+    .returnp h2 {
+        margin-left: 60px;
+    }
+
+    .returntxt {
+        margin-left: 60px;
+    }
+
+    .returntxt1 {
+        margin-left: 60px;
+    }
+
+    .returntxt2 {
+        margin-left: 60px;
+    }
+
+    .returntxt3 {
+        margin-left: 60px;
+    }
+}

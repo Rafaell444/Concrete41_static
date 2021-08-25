@@ -484,3 +484,9 @@ box-shadow:         0px -6px 17px 0px rgba(50, 50, 50, 0.4);
         visibility: hidden;
     }
 }
+
+@media only screen and (max-width: 440px){
+    .footerbelow p {
+        padding-left: 50px;
+    }
+}

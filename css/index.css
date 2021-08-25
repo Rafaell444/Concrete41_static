@@ -662,6 +662,25 @@ box-shadow:         0px -6px 17px 0px rgba(50, 50, 50, 0.4);
     .trans1{
         margin-left: 0;
     }
+
+    .footer-email-form h2 {
+        margin-right: 0;
+    }
+
+    .footer{
+        text-align: center;
+    }
+
+    .footer-heading.footer-2 a {
+        margin-left: 50px;
+    }
+
+    .footerbelow p{
+        padding-left: 250px;
+    }
+    .footer-heading{
+        margin-right: 0;
+    }
 }
 
 
@@ -701,4 +720,15 @@ box-shadow:         0px -6px 17px 0px rgba(50, 50, 50, 0.4);
         opacity: 0;
         visibility: hidden;
     }
+}
+
+@media only screen and (max-width: 440px){
+.footerbelow p {
+    padding-left: 50px;
+}
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    top: 60% !important;
 }
